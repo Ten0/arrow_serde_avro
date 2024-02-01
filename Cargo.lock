@@ -122,19 +122,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "arrow-avro"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "arrow",
- "serde",
- "serde-transcode",
- "serde_arrow",
- "serde_avro_fast",
- "serde_derive",
-]
-
-[[package]]
 name = "arrow-buffer"
 version = "50.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -292,6 +279,19 @@ dependencies = [
  "num",
  "regex",
  "regex-syntax",
+]
+
+[[package]]
+name = "arrow_serde_avro"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "arrow",
+ "serde",
+ "serde-transcode",
+ "serde_arrow",
+ "serde_avro_fast",
+ "serde_derive",
 ]
 
 [[package]]

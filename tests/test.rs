@@ -58,7 +58,7 @@ fn simple() {
 
 	// Deserialize to arrow record batch
 	let record_batch =
-		arrow_avro::read_object_container_file_to_arrow(serialized.as_slice()).unwrap();
+		arrow_serde_avro::read_object_container_file_to_arrow(serialized.as_slice()).unwrap();
 	dbg!(&record_batch);
 	assert_eq!(record_batch.num_rows(), 2);
 }
