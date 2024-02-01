@@ -8,7 +8,7 @@
 	serde = "1"
 	serde-transcode = "1"
 	serde_arrow = { version = "0.10.0-rc.1", features = ["arrow-50"] }
-	serde_avro_fast = { path = "../serde_avro_fast" }
+	serde_avro_fast = { git = "https://github.com/Ten0/serde_avro_fast" }
 
 	anyhow = "1"
 

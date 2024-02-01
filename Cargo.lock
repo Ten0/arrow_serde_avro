@@ -1066,6 +1066,7 @@ dependencies = [
 [[package]]
 name = "serde_avro_fast"
 version = "1.0.0-rc.4"
+source = "git+https://github.com/Ten0/serde_avro_fast#42cb3432008ad6b62e4e26f03233060e5a09f507"
 dependencies = [
  "flate2",
  "integer-encoding",
