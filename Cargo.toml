@@ -1,0 +1,13 @@
+[package]
+	edition = "2021"
+	name = "arrow-avro"
+	version = "0.1.0"
+
+[dependencies]
+	arrow = "50"
+	serde = "1"
+	serde-transcode = "1"
+	serde_arrow = { version = "0.10.0-rc.1", features = ["arrow-50"] }
+	serde_avro_fast = { path = "../serde_avro_fast" }
+
+	anyhow = "1"
