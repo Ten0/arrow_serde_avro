@@ -11,3 +11,6 @@
 	serde_avro_fast = { path = "../serde_avro_fast" }
 
 	anyhow = "1"
+
+[dev-dependencies]
+	serde_derive = "1"

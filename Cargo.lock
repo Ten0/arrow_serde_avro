@@ -131,6 +131,7 @@ dependencies = [
  "serde-transcode",
  "serde_arrow",
  "serde_avro_fast",
+ "serde_derive",
 ]
 
 [[package]]
